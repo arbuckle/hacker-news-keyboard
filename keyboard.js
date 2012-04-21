@@ -36,7 +36,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 		}
 
 		/*Tab to enter keyboard navigation mode (with apologies to Mr Tesler).*/
-		if (event.keyCode === 9 && !initialized) {
+		if (event.keyCode === 9 && !initialized && posts.length) {
 			if (window.location.href.indexOf('/item/') === -1) {
 				event.preventDefault();
 			} else {
