@@ -21,7 +21,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 // @include        https://news.ycombinator.org/*
 // ==/UserScript==
 
-alert(navigator.userAgent)
 (function() {
 	"use strict";
 	var posts = document.getElementsByClassName('title'),
@@ -98,4 +97,4 @@ alert(navigator.userAgent)
 	}
 
 	window.addEventListener('keydown', handler);
-}());
+})();
