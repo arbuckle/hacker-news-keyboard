@@ -17,9 +17,8 @@ Up, Down, Left, Right
 Up and Down to navigate articles.  Left and right to focus on the article link or the comments link.  Enter opens the selected link
 
 
-Non-issues
 ----------
-Doesn't work on the search page, breaks on any page that has fewer than 30 articles.  
 
-
-Released under the MIT license.  Full license in keyboard.js
+Some non-issues:
+* Doesn't work on the search page, breaks on any page that has fewer than 30 articles.  
+* Released under the MIT license.  Full license in keyboard.js
