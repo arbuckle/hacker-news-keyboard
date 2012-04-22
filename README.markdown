@@ -8,13 +8,13 @@ The source script, keyboard.js, can also be used as a greasemonkey extension.
 Here's how to use it:
 ---------------------
 1. Tab, Esc
-* Tab enters keyboard browsing mode.
-* Esc cancels keyboard browsing mode.
+  - Tab enters keyboard browsing mode.
+  - Esc cancels keyboard browsing mode.
 
 2. Up, Down, Left, Right
-* Up and Down to navigate articles.  
-* Left and right to focus on the article link or the comments link.  
-* Enter opens the selected link.
+  - Up and Down to navigate articles.  
+  - Left and right to focus on the article link or the comments link.  
+  - Enter opens the selected link.
 
 Here's how to install it:
 -------------------------
