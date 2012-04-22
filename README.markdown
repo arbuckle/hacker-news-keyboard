@@ -1,9 +1,11 @@
 Chrome Plugin Enabling Keyboard Browsing on Hacker News
 =======================================================
 This is a Chrome browser plugin to enable keyboard browsing on the news.ycombinator.com / .org website.  
+
 This plugin has no script dependencies, it reads and modifies the DOM using pure javascript.  
 
-The source script, keyboard.js, can also be used as a greasemonkey extension.
+The source file, *keyboard.js*, can also be used as a greasemonkey script.
+
 
 Here's how to use it:
 ---------------------
@@ -15,6 +17,7 @@ Here's how to use it:
   - Up and Down to navigate articles.  
   - Left and right to focus on the article link or the comments link.  
   - Enter opens the selected link.
+
 
 Here's how to install it:
 -------------------------
