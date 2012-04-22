@@ -1,0 +1,12 @@
+{
+  "name": "hacker-news-keyboard",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Enables UDLR keyboard controls on Hacker News after hitting TAB.",
+  "content_scripts": [
+    {
+		"matches": ["http://news.ycombinator.com/*", "http://news.ycombinator.org/*, https://news.ycombinator.org/*, https://news.ycombinator.com/*"],
+		"js" : ["keyboard.js"]
+    }
+  ]
+}
